@@ -1,7 +1,5 @@
 # Walkthrough - Temporal Multi-Task Transformer for Finance
 
-I have successfully built and trained a **Temporal-Aware Multi-Task Transformer** tailored for financial data.
-
 ## 1. Key Components Implemented
 
 ### Data Generation (`data/generator.py`)
