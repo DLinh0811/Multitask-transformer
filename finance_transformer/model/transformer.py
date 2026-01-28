@@ -27,7 +27,7 @@ class TemporalMultiTaskModel(nn.Module):
         # Time: 
         #   (a) Time2Vec (Continuous)
         #   (b) Calendar (Discrete)
-        # We combine them.
+        #  Combine
         self.time2vec = Time2Vec(output_dim=d_model) # (B, T, d_model)
         self.calendar_encoder = TimeFeatureEmbedding(d_model=d_model // 4) 
         # Calendar outputs 4 features * (d_model/4) = d_model

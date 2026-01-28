@@ -67,7 +67,7 @@ class VariableSelectionNetwork(nn.Module):
         # Inputs flattened or concatenated? 
         # Simplified: We learn a weight based on the flattened concatenation of transformed features
         # Or more robustly: A global context vector. 
-        # For simplicity in this tutorial, we will just use a learnable weight per variable purely based on their transformed state.
+        
         
         self.weight_network = GatedResidualNetwork(hidden_dim * len(input_dims), hidden_dim, len(input_dims))
         
