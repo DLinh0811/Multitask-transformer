@@ -28,7 +28,7 @@ Instead of a single output, the model projects the latent state into 4 heads:
 
 ## 2. Verification Results
 
-I trained the model for 10 epochs on 2000 synthetic samples.
+Train the model for 10 epochs on 2000 synthetic samples.
 
 ### Training Log
 ```
